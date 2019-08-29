@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+      
+</head>
+
+<body>
+
+	<h1>A Simple JavaScript Calculator</h1>
+
+	<div class="container">
+
+
+		
+
+		<table width="100%" class="calculator">
+			<thead>
+			<tr>
+				<td rowspan="2" colspan="4"><input type="text" class="display"></td>
+				<td colspan="4"></td>
+			</tr>
+		</thead>
+		<tbody>
+
+			<tr>
+				<td><button id="button">+</button></td><td><button  id="button">-</button></td><td><button id="button">÷</button></td><td><button id="button">*</button></td>
+			</tr>
+			<tr>
+				<td><button id="button">7</button></td><td><button id="button" >8</button></td><td><button id="button">9</button></td><td rowspan="4"><button data-logic="calculate" id="button" class="equalkey">=</button></td>
+			</tr>
+			<tr>
+				<td><button id="button" >4</button></td><td><button id="button" >5</button></td><td><button id="button">6</button></td>
+			</tr>
+			<tr>
+				<td><button id="button">1</button></td><td><button id="button">2</button></td><td><button id="button">3</button></td>
+			</tr>
+			<tr>
+				<td><button id="button" data-logic="decimal">.</button></td><td><button id="button" >0</button></td><td><button id="button" data-logic="clear">AC</button></td>
+			</tr>
+			
+		</tbody>
+		</table>
+</div>
+</div>
+
+<script src="calculator.js"></script>
+</body>
+</html>
