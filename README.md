@@ -1,6 +1,6 @@
 # CcHUB Project
 
 
-|# NAME |# TASK |
+| NAME | TASK |
 |:------:|:-----:|
 | Chidubem Emmanuel Nwodo  | A simple JavaScript Calculator |
